@@ -1,23 +1,22 @@
 #!/usr/bin/env bash
-# Displays varnumbers from 1 to 100 in list format.
-#   Displays "FizzBuzz" when the number is a multiple of 3 and 5.
-#   Displays "Fizz" when the number is a multiple of 3.
-#   Displays "Buzz" when the number is a multiple of 5.
-#   Otherwise, displays the number.
-#   Like the regular interview test done in c.
+# a Bash script that displays numbers from 1 to 100.
+# Displays FizzBuzz when the number is a multiple of 3 and 5
+# Displays Fizz when the number is multiple of 3
+# Displays Buzz when the number is a multiple of 5
+# Otherwise, displays the number, In a list format
 
-for varnum in {1..100}
+for i in {1..100}
 do
-  if (( varnum % 3 == 0 && varnum % 5 == 0 ))
-  then
+if ((i % 15 == 0))
+    then
     echo "FizzBuzz"
-  elif (( varnum % 3 == 0 ))
-  then
-    echo "Fizz"
-  elif (( varnum % 5 == 0 ))
-  then
+elif ((i % 5 == 0))
+    then
     echo "Buzz"
-  else
-    echo "$varnum"
-  fi
+elif (( i % 3 == 0))
+    then
+    echo "Fizz"
+else
+    echo "$i"
+fi
 done
