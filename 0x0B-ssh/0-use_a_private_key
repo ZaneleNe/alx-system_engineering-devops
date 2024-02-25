@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#A script to connect to the remote server
+
+ssh -i ~/.ssh/school ubuntu@100.25.102.17
