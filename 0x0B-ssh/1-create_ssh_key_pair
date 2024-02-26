@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+#Creates an RSA SSH key pair
 
 private_key_name="school"
 key_bits=4096
