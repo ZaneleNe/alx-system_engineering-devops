@@ -3,7 +3,7 @@
 #the private key ~/.ssh/school with the user ubuntu
 
 Host 218560-web-01
-    HostName 54.150.140.44
+    HostName 54.85.125.85
     User ubuntu
     IdentityFile ~/.ssh/school
     PasswordAuthentication no
