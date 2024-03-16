@@ -47,8 +47,8 @@ frontend blackrunner-frontend-https
 
 backend blackrunner-backend
         balance roundrobin
-        server 465836-web-01 52.87.154.44:80 check
+        server 465836-web-01 54.85.125.85.44:80 check
         server 465835-web-02 54.237.30.251:80 check
 
-#       server 465836-web-01 52.87.154.44:80 check
+#       server 465836-web-01 54.85.125.85:80 check
 #       server 465835-web-02 54.237.30.251:80 check
