@@ -51,4 +51,4 @@ backend blackrunner-backend
         server 465835-web-02 54.237.30.251:80 check
 
 #       server 465836-web-01 54.85.125.85:80 check
-#       server 465835-web-02 54.237.30.251:80 check
+#       server 465835-web-02 18.204.20.216:80 check
